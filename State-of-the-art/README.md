@@ -44,7 +44,7 @@ Priorities are given to papers whose codes are published.
 <!-- |MGN| 88.7% | 78.4% | "[Learning Discriminative Features with Multiple Granularities for Person Re-Identification](https://arxiv.org/abs/1804.01438)" Wang, Guanshuo, Yufeng Yuan, Xiong Chen, Jiwei Li, and Xi Zhou. arXiv:1804.01438 | -->
 
 ### Transfer Learning
-Train on [Market-1501](http://www.liangzheng.com.cn/Project/project_reid.html), Test on DukeMTMC-reID
+- Train on [Market-1501](http://www.liangzheng.com.cn/Project/project_reid.html), Test on DukeMTMC-reID
 
 The primary motivation is that collecting ID annotation is relatively-expensive in human resource and time cost. 
 
@@ -59,6 +59,7 @@ Is it possible to use less annotation on the unseen dataset, especially ID label
 | SPGAN | :heavy_check_mark: | 41.4% | 22.3% | "[Image-Image Domain Adaptation with Preserved Self-Similarity and Domain-Dissimilarity for Person Re-identification](https://arxiv.org/abs/1711.07027)", Weijian Deng, Liang Zheng, Guoliang Kang, Yi Yang, Qixiang Ye, Jianbin Jiao, CVPR 2018|
 | TJ-AIDL | :heavy_check_mark: | 44.3% | 23.0% | "[Transferable Joint Attribute-Identity Deep Learning for Unsupervised Person Re-Identification](http://www.eecs.qmul.ac.uk/~xiatian/papers/WangEtAl_CVPR2018.pdf)", Jingya Wang, Xiatian Zhu, Shaogang Gong, Wei Li, ECCV 2018 |
 | MMFA | :heavy_check_mark: | 45.3% | 24.7% | "[Multi-task Mid-level Feature Alignment Network for Unsupervised Cross-Dataset Person Re-Identification](https://arxiv.org/abs/1807.01440)", Shan Lin, Haoliang Li, Chang-Tsun Li, Alex Chichung Kot, BMVC 2018|
+| DGNet | :heavy_multiplication_x:|  43.5% | 25.4% | "[Joint Discriminative and Generative Learning for Person Re-identification]",  Zhedong Zheng, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang and Jan Kautz, CVPR 2019. | 
 | SPGAN+LMP | :heavy_check_mark: | 46.4% | 26.2% | |
 | HHL | :heavy_check_mark: | 46.9% | 27.2% | "[Generalizing A Person Retrieval Model Hetero- and Homogeneously](https://github.com/zhunzhong07/zhunzhong07.github.io/blob/master/paper/HHL.pdf)", Zhun Zhong, Liang Zheng, Shaozi Li, Yi Yang, ECCV 2018|
 | BUC | :heavy_check_mark: | 47.4% | 27.5% | "[A Bottom-up Clustering Approach to Unsupervised Person Re-identification](http://xuanyidong.com/pdf/AAAI19-vana.pdf)", Yutian Lin, Xuanyi Dong, Liang Zheng,Yan Yan, Yi Yang, AAAI 2018|
@@ -66,3 +67,12 @@ Is it possible to use less annotation on the unseen dataset, especially ID label
 | ARN | :heavy_check_mark: | 60.2% | 33.4% | "[Adaptation and Re-Identification Network: An Unsupervised Deep Transfer Learning Approach to Person Re-Identification](http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w6/Li_Adaptation_and_Re-Identification_CVPR_2018_paper.pdf)", Yu-Jhe Li, Fu-En Yang, Yen-Cheng Liu, Yu-Ying Yeh, Xiaofei Du, and Yu-Chiang Frank Wang, CVPR 2018 Workshop|
 | TAUDL | :heavy_check_mark: | 61.7% | 43.5% | "[Unsupervised Person Re-identification by Deep Learning Tracklet Association](http://openaccess.thecvf.com/content_ECCV_2018/papers/Minxian_Li_Unsupervised_Person_Re-identification_ECCV_2018_paper.pdf)", Minxian Li, Xiatian Zhu, and Shaogang Gong, ECCV 2018 |
 | UDARTP | :heavy_check_mark: | 68.4% | 49.0% | "[Unsupervised Domain Adaptive Re-Identification: Theory and Practice](https://arxiv.org/pdf/1807.11334.pdf)", Liangchen Song, Cheng Wang, Lefei Zhang, Bo Du, Qian Zhang, Chang Huang, and Xinggang Wang, arXiv:1807.11334|
+
+
+- Train on [MSMT17](https://www.pkuvmc.com/publications/msmt17.html), Test on DukeMTMC-reID
+
+|Methods | Use DukeMTMC Training Data (without ID label but may use the camera ID)| Rank@1 | mAP| Reference|
+| -------- | ----- | ----- | ---- | ---- |
+| Verif + Identif | :heavy_multiplication_x:|  48.7% | 27.5% | "[A Discriminatively Learned Cnn Embedding for Person Re-identification](https://arxiv.org/abs/1611.05666)",  Zhedong Zheng, Liang Zheng, and Yi Yang, TOMM 2017. [**[pytorch code]**](https://github.com/layumi/Person-reID-verification)| 
+| DGNet | :heavy_multiplication_x:|  xx% | xx% | "[Joint Discriminative and Generative Learning for Person Re-identification]",  Zhedong Zheng, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang and Jan Kautz, CVPR 2019. | 
+| MAR | :heavy_check_mark: | 67.1% | 48.0% | "[Unsupervised Person Re-identification by Soft Multilabel Learning](https://arxiv.org/abs/1903.06325)", Hong-Xing Yu, Wei-Shi Zheng, Ancong Wu, Xiaowei Guo, Shaogang Gong, Jian-Huang Lai, CVPR 2019. | 
