@@ -41,6 +41,7 @@ Priorities are given to papers whose codes are published.
 |Part-aligned（Inception V1, OpenPose) | 84.4% | 69.3% | "[Part-Aligned Bilinear Representations for Person Re-identification](https://arxiv.org/abs/1804.07094)", Yumin Suh, Jingdong Wang, Siyu Tang, Tao Mei, Kyoung Mu Lee, ECCV 2018 |
 |GP-reID | 85.2% | 72.8% | "[Re-ID done right: towards good practices for person re-identification](https://arxiv.org/abs/1801.05339)", Jon Almazan, Bojana Gajic, Naila Murray, Diane Larlus, arXiv:1801.05339 |
 |SPreID (Res-152) | 85.95% | 73.34% |  "[Human Semantic Parsing for Person Re-identification](https://arxiv.org/abs/1804.00216)", Kalayeh, Mahdi M., Emrah Basaran, Muhittin Gokmen, Mustafa E. Kamasak, and Mubarak Shah, CVPR 2018|
+| DGNet (Res-50)|  86.6% | 74.8% | "[Joint Discriminative and Generative Learning for Person Re-identification](https://arxiv.org/abs/1904.07223)",  Zhedong Zheng, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang and Jan Kautz, CVPR 2019. |
 <!-- |MGN| 88.7% | 78.4% | "[Learning Discriminative Features with Multiple Granularities for Person Re-Identification](https://arxiv.org/abs/1804.01438)" Wang, Guanshuo, Yufeng Yuan, Xiong Chen, Jiwei Li, and Xi Zhou. arXiv:1804.01438 | -->
 
 ### Transfer Learning
