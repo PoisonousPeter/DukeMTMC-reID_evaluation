@@ -1,7 +1,9 @@
 ## DukeMTMC-reID Description
 ![](https://github.com/layumi/Duke_evaluation/blob/master/DukeMTMC-reID_mosaic.jpg)
 
-***What's new:*** Following the license on the [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/) website, we added a few modifications to the license terms. You may check the license in this repo. The dataset is released only for academic research. 
+**Data Offline.** Since the privacy implications of the data set are being considered, I have to offline the download link for DukeMTMC-reID. I am very sorry about it. There is currently no clear indication as to when, if ever, the data set will be allowed to be restored.
+
+Following the license on the [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/) website, we added a few modifications to the license terms. You may check the license in this repo. The dataset is released only for academic research. 
 
 [DukeMTMC-reID](#dukemtmc-reid-description) [1] is a subset of the [DukeMTMC](http://vision.cs.duke.edu/DukeMTMC/) dataset [2] for image-based re-identification, in the format of the [Market-1501](http://www.liangzheng.com.cn/Project/project_reid.html) dataset. The original dataset contains 85-minute high-resolution videos from 8 different cameras. Hand-drawn pedestrain bounding boxes are available. 
 
@@ -13,7 +15,6 @@ We crop pedestrain images from the videos every 120 frames, yielding in total 36
 * [DukeMTMC-reID](#dukemtmc-reid-description)
     * [About Dataset](#about-dataset)
     * [Dataset Licence](#dataset-licence)
-    * [Download Dataset](#download-dataset)
     * [Dataset Insights](#dataset-insights)
 * [Evaluation](#evaluation)
     * [Evaluation](#evaluation)
@@ -39,17 +40,6 @@ Please follow the [LICENSE_DukeMTMC-reID](https://github.com/layumi/DukeMTMC_reI
 We also include the [LICENSE_DukeMTMC](https://github.com/layumi/DukeMTMC_reID_evaluation/blob/master/LICENSE_DukeMTMC.txt). If you want to share, create and adapt the DukeMTMC dataset, please follow this license.
 
 The DukeMTMC-reID evaluation code is under the MIT License.
-
-### Download Dataset
-
-The direct download link is [Here](http://vision.cs.duke.edu/DukeMTMC/data/misc/DukeMTMC-reID.zip).
-
-You also can download the DukeMTMC-reID dataset from [GoogleDriver](https://drive.google.com/open?id=1jjE85dRCMOgRtvJ5RQV9-Afs-2_5dY3O) or ([BaiduYun](https://pan.baidu.com/s/1jS0XM7Var5nQGcbf9xUztw) password: bhbh).
-
-Some unzip tools on Windows may meet some problems. Please check that you have the following files after unzip:
-![](https://github.com/layumi/DukeMTMC-reID_evaluation/blob/master/file.png)
-
-If download links are unavailable, please don't hesitate to contact me to update links. Thank you.
 
 ### Dataset Insights
 
